@@ -11,11 +11,11 @@ namespace Business.Abstract
         // https://youtu.be/ow-EHetuNAU?list=PLqG356ExoxZVN7rC0KmMo0lvECK97VRZg    2:27:00  8. kamp 
 
         IDataResult<List<M100AddressBook>> GetAll();
-        IDataResult<M100AddressBook> GetById(int m100AddressBookId);
-        IResult Add(M100AddressBook m100AddressBook);
-        IResult Update(M100AddressBook m100AddressBook);
-        IResult Delete(M100AddressBook m100AddressBook); // update 
-        //IResult Kill(M100AddressBook m100AddressBook);
+        IDataResult<M100AddressBook> GetById(int m100AddressBookId); //filtered get
+        IResult Add(M100AddressBook m100AddressBook); //adds new Data
+        IResult Update(M100AddressBook m100AddressBook); //UPDATEs information
+        IResult Delete(M100AddressBook m100AddressBook); // update the isDeleted
+        IResult Kill(M100AddressBook m100AddressBook); // deletes compeletly
         
     }
 }

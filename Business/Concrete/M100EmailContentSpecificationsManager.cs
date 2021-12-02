@@ -17,9 +17,34 @@ namespace Business.Concrete
             _m100EmailContentSpecificationsDal = m100EmailContentSpecificationsDal;
         }
 
+        public IResult Add(M100EmailContentSpecifications m100AddressBook)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Delete(M100EmailContentSpecifications M100EmailContentSpecifications)
+        {
+            throw new NotImplementedException();
+        }
+
         public IDataResult<List<M100EmailContentSpecifications>> GetAll()
         {
             return new SuccessDataResult<List<M100EmailContentSpecifications>>(_m100EmailContentSpecificationsDal.GetAll());
+        }
+
+        public IDataResult<M100EmailContentSpecifications> GetById(int M100EmailContentSpecificationsId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Kill(M100EmailContentSpecifications M100EmailContentSpecifications)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Update(M100EmailContentSpecifications M100EmailContentSpecifications)
+        {
+            throw new NotImplementedException();
         }
     }
 }

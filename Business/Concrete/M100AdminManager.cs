@@ -17,10 +17,34 @@ namespace Business.Concrete
             _m100AdminDal = m100AdminDal;
         }
 
+        public IResult Add(M100Admin m100Admin)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Delete(M100Admin m100Admin)
+        {
+            throw new NotImplementedException();
+        }
+
         public IDataResult<List<M100Admin>>GetAll()
         {
             return new SuccessDataResult<List<M100Admin>>(_m100AdminDal.GetAll());
         }
-        
+
+        public IDataResult<M100Admin> GetById(int m100AdminId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Kill(M100Admin m100Admin)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Update(M100Admin m100Admin)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

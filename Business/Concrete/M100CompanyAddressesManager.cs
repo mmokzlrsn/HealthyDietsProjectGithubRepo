@@ -17,9 +17,34 @@ namespace Business.Concrete
             _m100CompanyAddressesDal = m100CompanyAddressesDal;
         }
 
+        public IResult Add(M100CompanyAddresses m100CompanyAddresses)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Delete(M100CompanyAddresses m100CompanyAddresses)
+        {
+            throw new NotImplementedException();
+        }
+
         public IDataResult<List<M100CompanyAddresses>> GetAll()
         {
             return new SuccessDataResult<List<M100CompanyAddresses>>(_m100CompanyAddressesDal.GetAll());
+        }
+
+        public IDataResult<M100CompanyAddresses> GetById(int m100CompanyAddressesId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Kill(M100CompanyAddresses m100CompanyAddresses)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Update(M100CompanyAddresses m100CompanyAddresses)
+        {
+            throw new NotImplementedException();
         }
     }
 }

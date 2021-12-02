@@ -17,7 +17,31 @@ namespace Business.Concrete
             _m100AllPhoneDal = m100AllPhoneDal;
         }
 
-         
+        public IResult Add(M100AddressBook m100AddressBook)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Delete(M100AddressBook m100AddressBook)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IDataResult<M100AddressBook> GetById(int m100AddressBookId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Kill(M100AddressBook m100AddressBook)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Update(M100AddressBook m100AddressBook)
+        {
+            throw new NotImplementedException();
+        }
+
         IDataResult<List<M100AllPhone>> IM100AllPhoneService.GetAll()
         {
             return new SuccessDataResult<List<M100AllPhone>>(_m100AllPhoneDal.GetAll());

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Entities.Concrete
 {
-    public class M100AddressBook:IEntity
+    public class M100AddressBook : IEntity
     {
         public int AddressBookId { get; set; } 
         public int CityId { get; set; }

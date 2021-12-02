@@ -51,6 +51,11 @@ namespace Business.Concrete
             throw new NotImplementedException();
         }
 
+        public IResult Kill(M100AddressBook m100AddressBook)
+        {
+            throw new NotImplementedException();
+        }
+
         public IResult Update(M100AddressBook m100AddressBook)
         {
             throw new NotImplementedException();

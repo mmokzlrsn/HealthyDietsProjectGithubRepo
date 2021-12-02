@@ -17,9 +17,34 @@ namespace Business.Concrete
             _m100ClientOperationClaimsDal = m100ClientOperationClaimsDal;
         }
 
+        public IResult Add(M100ClientOperationClaims m100ClientOperationClaims)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Delete(M100ClientOperationClaims m100ClientOperationClaims)
+        {
+            throw new NotImplementedException();
+        }
+
         public IDataResult<List<M100ClientOperationClaims>> GetAll()
         {
             return new SuccessDataResult<List<M100ClientOperationClaims>>(_m100ClientOperationClaimsDal.GetAll());
+        }
+
+        public IDataResult<M100ClientOperationClaims> GetById(int m100ClientOperationClaimsId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Kill(M100ClientOperationClaims m100ClientOperationClaims)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Update(M100ClientOperationClaims m100ClientOperationClaims)
+        {
+            throw new NotImplementedException();
         }
     }
 }

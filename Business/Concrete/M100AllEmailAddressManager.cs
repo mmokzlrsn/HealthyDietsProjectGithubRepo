@@ -17,9 +17,34 @@ namespace Business.Concrete
             _m100AllEmailAddressDal = m100AllEmailAddressDal;
         }
 
+        public IResult Add(M100AllEmailAddress m100AllEmailAddress)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Delete(M100AllEmailAddress m100AllEmailAddress)
+        {
+            throw new NotImplementedException();
+        }
+
         public IDataResult<List<M100AllEmailAddress>> GetAll()
         {
             return new SuccessDataResult<List<M100AllEmailAddress>>(_m100AllEmailAddressDal.GetAll());
+        }
+
+        public IDataResult<M100AllEmailAddress> GetById(int m100AllEmailAddressId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Kill(M100AllEmailAddress m100AllEmailAddress)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Update(M100AllEmailAddress m100AllEmailAddress)
+        {
+            throw new NotImplementedException();
         }
     }
 }

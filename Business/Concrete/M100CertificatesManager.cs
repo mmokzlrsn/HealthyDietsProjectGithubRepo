@@ -17,9 +17,34 @@ namespace Business.Concrete
             _m100CertificatesDal = m100CertificatesDal;
         }
 
+        public IResult Add(M100Certificates m100Certificates)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Delete(M100Certificates m100Certificates)
+        {
+            throw new NotImplementedException();
+        }
+
         public IDataResult<List<M100Certificates>> GetAll()
         {
             return new SuccessDataResult<List<M100Certificates>>(_m100CertificatesDal.GetAll());
+        }
+
+        public IDataResult<M100Certificates> GetById(int m100CertificatesId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Kill(M100Certificates m100Certificates)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Update(M100Certificates m100Certificates)
+        {
+            throw new NotImplementedException();
         }
     }
 }

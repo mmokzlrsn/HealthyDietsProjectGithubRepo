@@ -17,9 +17,34 @@ namespace Business.Concrete
             _m100DepartmentDetailsDal = m100DepartmentDetailsDal;
         }
 
+        public IResult Add(M100DepartmentDetails m100DepartmentDetails)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Delete(M100DepartmentDetails m100DepartmentDetails)
+        {
+            throw new NotImplementedException();
+        }
+
         public IDataResult<List<M100DepartmentDetails>> GetAll()
         {
             return new SuccessDataResult<List<M100DepartmentDetails>>(_m100DepartmentDetailsDal.GetAll());
+        }
+
+        public IDataResult<M100DepartmentDetails> GetById(int m100DepartmentDetailsId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Kill(M100DepartmentDetails m100DepartmentDetails)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IResult Update(M100DepartmentDetails m100DepartmentDetails)
+        {
+            throw new NotImplementedException();
         }
     }
 }

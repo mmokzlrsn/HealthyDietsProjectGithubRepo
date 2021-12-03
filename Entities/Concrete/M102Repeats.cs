@@ -7,15 +7,15 @@ namespace Entities.Concrete
 {
     public class M102Repeats:IEntity
     {
-        public int repeatsId { get; set; }
-        public int parentId { get; set; }
-        public int repeatsTypeId { get; set; }
-        public int whoListId { get; set; }
-        public int numberofDay { get; set; }
-        public int isDelete { get; set; }
-        public int isActive { get; set; }
-        public DateTime iUDateTime { get; set; }
-        public DateTime createDate { get; set; }
-        public String guid { get; set; }
+        public int RepeatsId { get; set; }
+        public int ParentId { get; set; }
+        public int RepeatsTypeId { get; set; }
+        public int WhoListId { get; set; }
+        public int NumberofDay { get; set; }
+        public int IsDelete { get; set; }
+        public int IsActive { get; set; }
+        public DateTime IUDateTime { get; set; }
+        public DateTime CreateDate { get; set; }
+        public String Guid { get; set; }
     }
 }

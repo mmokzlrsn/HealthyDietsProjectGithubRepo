@@ -21,6 +21,8 @@ namespace Core.DataAccess
         public void Update(T entity); //Update
 
         public void Delete(T entity); //Delete
+
+        //public void Kill(T entity); //Kill
     
 
     }

@@ -17,7 +17,7 @@ namespace DataAccess.Concrete.EntityFramework
             {
                 var result = from a in context.M100AddressBook
                              join c in context.M100Cities
-                             on a.AddressBookId equals c.CitiesId
+                             on a.CityId equals c.CitiesId
                              select new M100AddressBookDto { AddressBookId = a.AddressBookId, CityId = c.CitiesId };
                 return result.ToList();
             }

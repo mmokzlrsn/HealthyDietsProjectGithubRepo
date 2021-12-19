@@ -29,7 +29,7 @@ namespace Business.Concrete
 
         public IDataResult<List<M100CompanyAddresses>> GetAll()
         {
-            return new SuccessDataResult<List<M100CompanyAddresses>>(_m100CompanyAddressesDal.GetAll());
+            throw new NotImplementedException();
         }
 
         public IDataResult<M100CompanyAddresses> GetById(int m100CompanyAddressesId)

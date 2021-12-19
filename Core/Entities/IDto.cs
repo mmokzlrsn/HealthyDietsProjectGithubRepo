@@ -9,3 +9,5 @@ namespace Core.Entities
         //https://youtu.be/Hgqqoycoh9c?t=9399
     }
 }
+
+

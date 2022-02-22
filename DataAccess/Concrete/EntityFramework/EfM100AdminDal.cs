@@ -18,7 +18,8 @@ namespace DataAccess.Concrete.EntityFramework
                 var result = from a in context.M100Admin
                              join p in context.M100Persons
                              on a.PersonId equals p.PersonsId
-                             select new M100AdminDto { AdminId = a.AdminId, PersonId = p.PersonsId };
+                             select new M100AdminDto 
+                             { AdminId = a.AdminId, PersonId = p.PersonsId };
                 return result.ToList();
             }
            
